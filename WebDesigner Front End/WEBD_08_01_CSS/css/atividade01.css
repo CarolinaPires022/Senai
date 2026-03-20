@@ -1,0 +1,31 @@
+body{
+    background-image: linear-gradient(to right,#d1d9e0,#dadada, #d1d9e0); /* Cor de fundo mesclando 3 cores*/
+    display: flex; /*Define a estrutura FLEX para BOX (caixas)*/
+    justify-content: center; /* Centraliza elementos horizontamente*/
+    align-items: center; /* Centraliza elementos na vertical*/
+    min-height: 100vh; /* Garante que o body ocupe a altura total da tela.*/
+}
+
+
+table{
+    border-collapse: collapse; /* Elimina espaços entre os elemnetos da tabela*/
+    border-spacing: 0; /* Elimina o espaço das bordas*/
+    font-size: 15px;
+    font-family: arial;
+    color:white;
+    width: 200px;
+}
+
+tr:first-child{
+    background: #f8631d !important;
+    color: #fff;
+}
+table tr{ 
+    background-color: #e6e6e6;
+}
+
+
+.hr td:first-child{
+    background-color: #dedadd;
+    color: #9fa2b3;
+}

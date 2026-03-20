@@ -1,0 +1,46 @@
+body{
+    background-image: linear-gradient(to right,#8354c8, #9f52c4, #bb54c1); /* Cor de fundo mesclando 3 cores*/
+    display: flex; /*Define a estrutura FLEX para BOX (caixas)*/
+    justify-content: center; /* Centraliza elementos horizontamente*/
+    align-items: center; /* Centraliza elementos na vertical*/
+    min-height: 100vh; /* Garante que o body ocupe a altura total da tela.*/
+}
+
+
+table{
+    border-collapse: collapse; /* Elimina espaços entre os elemnetos da tabela*/
+    border-spacing: 0; /* Elimina o espaço das bordas*/
+    font-size: 15px;
+    font-family: arial;
+    color: #636262;
+    width: 1000px;
+}
+tr{
+    line-height: 30px;
+    border-bottom: solid 1px #d8d8d8;
+}
+table tr:nth-child(odd){ /*odd=> impar, even=> par*/
+    background-color: #e6e6e6;
+}
+table tr:nth-child(even){ /*odd=> impar, even=> par*/
+    background-color: #ffffff;
+}
+tr:first-child{
+    background: #353047 !important;
+    color: #fff;
+}
+.cab1 td:first-child{
+    border-radius: 10px 0px 0px 0px;
+}
+.senc td{
+     font-weight: bold;
+}
+.cab1 td:last-child{
+    border-radius: 0px 10px 0px 0px;
+}
+.las1 td:first-child{
+    border-radius: 0px 0px 0px 10px;
+}
+.las1 td:last-child{
+    border-radius: 0px 0px 10px 0px;
+}
